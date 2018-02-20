@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\ThefitzyG\.Rider2017.3\system\resharper-host\local\Transient\ReSharperHost\v11\SolutionCaches\_LightFarming.-1332548897.00" t="ExcludeRecursive" />
+    <e p="C:\Users\ThefitzyG\Documents\projects\LightFarming" t="IncludeRecursive">
+      <e p="Assembly-CSharp-Editor-firstpass.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Plugins" t="Include">
+          <e p="Editor" t="Include">
+            <e p="JetBrains" t="Include">
+              <e p="Unity3DRider.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Scripts" t="Include">
+          <e p="Enviroment" t="Include">
+            <e p="dayNight.cs" t="Include" />
+            <e p="lightAdjust.cs" t="Include" />
+          </e>
+          <e p="Interactibles" t="Include">
+            <e p="Interactable.cs" t="Include" />
+          </e>
+          <e p="Misc" t="Include">
+            <e p="destoryer.cs" t="Include" />
+            <e p="spawner.cs" t="Include" />
+          </e>
+          <e p="Player" t="Include">
+            <e p="gridMovement.cs" t="Include" />
+            <e p="playerInventory.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="inventoryCounter.cs" t="Include" />
+          </e>
+        </e>
+        <e p="Trash" t="Include">
+          <e p="tileDetect.cs" t="Include" />
+        </e>
+      </e>
+      <e p="Library" t="ExcludeRecursive" />
+      <e p="LightFarming.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="packages" t="ExcludeRecursive" />
+      <e p="Temp" t="ExcludeRecursive">
+        <e p="bin" t="ExcludeRecursive" />
+      </e>
+    </e>
+  </component>
+</project>
