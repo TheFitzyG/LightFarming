@@ -11,6 +11,8 @@ public class Interactable : MonoBehaviour {
 	public UnityEvent interacted;
 	
 	public void interact() {
+		
+		Debug.Log("Interacted with: "+ gameObject.ToString());
 
 		interacted.Invoke();
 

@@ -6,17 +6,24 @@ public class destoryer : MonoBehaviour {
 
 
 	public string item;
-	public string tool;
+	//ublic string tool;
+
+	public hotbar tool;
 	
 	public void destroy() {
 		
-		if (playerInventory.selectedItem == (hotbar)System.Enum.Parse(typeof(hotbar), tool)){
+		if (playerInventory.selectedItem == tool){//playerInventory.selectedItem == (hotbar)System.Enum.Parse(typeof(hotbar), tool)){
 
 			playerInventory.inventory[item]++;
 
 
 			Destroy(gameObject);
 
+		}
+		else { 
+		
+		Debug.Log("NOPE");
+		
 		}
 
 

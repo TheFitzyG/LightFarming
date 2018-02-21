@@ -24,7 +24,7 @@ public class gridMovement : MonoBehaviour {
 
     private Vector3    front;
     public  LayerMask  frontDetectMask;
-    public  GameObject spawnObject;
+    public  GameObject jarObject;
 
 
     // Use this for initialization
@@ -104,8 +104,20 @@ public class gridMovement : MonoBehaviour {
         if (!line) {
             if (Input.GetAxis("Accept") > 0.2 && !acceptLock) {
                 acceptLock = true;
-                //GameObject newTile = Instantiate(spawnObject, front, transform.rotation);
-                //newTile.transform.SetParent(transform.parent);
+
+                switch (playerInventory.selectedItem) {
+
+                    case(hotbar.jars) :
+
+                        if (playerInventory.inventory["jars"] > 0) {
+                            playerInventory.inventory["jars"]--;
+                            GameObject newTile = Instantiate(jarObject, front, transform.rotation);
+                            newTile.transform.SetParent(transform.parent);
+                        }
+
+                        break;
+                    
+                }
             }
         }
 

@@ -29,6 +29,7 @@ public class playerInventory : MonoBehaviour {
         
         }
 
+        inventory["jars"] += 2;
 
     }
 
@@ -64,7 +65,7 @@ public class playerInventory : MonoBehaviour {
         }
 
         selectedItem = (hotbar)scroll;
-        Debug.Log(selectedItem.ToString());
+        //Debug.Log(selectedItem.ToString());
 
 
 
@@ -80,5 +81,14 @@ public enum hotbar {
     
     
     
+
+}
+
+public enum items { 
+
+    seeds,
+    fireFlies,
+    jars
+
 
 }
